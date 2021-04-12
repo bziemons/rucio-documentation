@@ -2,7 +2,7 @@
 set -e
 
 INPUT_BRANCH=${INPUT_BRANCH:-gh-pages}
-INPUT_DIRECTORY=${INPUT_DIRECTORY:-'website/build/documentation'}
+INPUT_DIRECTORY=${INPUT_DIRECTORY:-'website/build/rucio-documentation'}
 OUTPUT_DIRECTORY=${OUTPUT_DIRECTORY:-'gh-pages'}
 
 [ -z "${GITHUB_TOKEN}" ] && {
